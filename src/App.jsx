@@ -82,7 +82,7 @@ const styles = {
   name: {
     textAlign: "center",
     color: "#082a9a",
-    fontSize: 44,
+    fontSize: 34,
     fontWeight: 400,
     lineHeight: 1.05,
     letterSpacing: 1.2,
