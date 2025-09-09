@@ -108,7 +108,7 @@ const styles = {
     borderTop: "1px solid #e0e0e0",
     color: "#8a8a8a",
     position: "absolute",
-    top: '650px',
+    top: '600px',
     fontSize: 14,
     textAlign: "center",
     padding: "12px 0 8px 0",
