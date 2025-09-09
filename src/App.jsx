@@ -1,9 +1,9 @@
 
 import React from "react";
-import image from "./assets/image.png";
+import image from "./assets/image.jpg";
 
 export default function App() {
-  const studentName = "Pedro Kelvin Pezarini do Valle";
+  const studentName = "PEDRO KELVIN PEZARINI DO VALLE";
   const course = "SISTEMAS DE INFORMAÇÃO";
   const expiry = "31/03/2026";
   // Consulta de data e hora atual de Brasília
@@ -35,7 +35,6 @@ export default function App() {
 
         <div style={styles.consult}>Consulta feita: {consulted}</div>
       </div>
-      <div style={{ width: "100%", borderTop: "1px solid #e0e0e0" }} />
       <div style={styles.footer}>© - PUC Campinas</div>
     </div>
   );
@@ -46,7 +45,6 @@ const styles = {
     minHeight: "100vh",
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
     background: "#fff",
     fontFamily:
       "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial",
@@ -56,10 +54,10 @@ const styles = {
     maxWidth: 560,
     width: "100%",
     paddingTop: 28,
-    /* Removido paddingBottom para não empurrar o footer */
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    flex: 1,
   },
   topBar: {
     width: "100%",
@@ -85,14 +83,14 @@ const styles = {
     textAlign: "center",
     color: "#082a9a",
     fontSize: 44,
-    fontWeight: 700,
+    fontWeight: 400,
     lineHeight: 1.05,
     letterSpacing: 1.2,
     padding: "0 12px",
   },
   course: {
     fontSize: 18,
-    fontWeight: 600,
+    fontWeight: 400,
     color: "#1f1f1f",
   },
   expiry: {
@@ -106,9 +104,15 @@ const styles = {
     fontSize: 14,
   },
   footer: {
-    marginTop: "auto",
+    width: "100%",
+    borderTop: "1px solid #e0e0e0",
     color: "#8a8a8a",
+    position: "absolute",
+    top: '650px',
     fontSize: 14,
+    textAlign: "center",
+    padding: "12px 0 8px 0",
+    marginTop: "auto",
   },
   browserBottom: {
     position: "fixed",
