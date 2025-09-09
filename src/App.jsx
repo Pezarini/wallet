@@ -56,7 +56,7 @@ const styles = {
     maxWidth: 560,
     width: "100%",
     paddingTop: 28,
-    paddingBottom: 120,
+    /* Removido paddingBottom para não empurrar o footer */
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -106,7 +106,7 @@ const styles = {
     fontSize: 14,
   },
   footer: {
-    marginTop: 32,
+    marginTop: "auto",
     color: "#8a8a8a",
     fontSize: 14,
   },
